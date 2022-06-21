@@ -1,0 +1,16 @@
+{
+    "port":"/dev/ttyUSB0",
+    "baudrate": 115200,
+    "credentials" : {
+    "host":"localhost",
+    "database":"CAFEARQUI",
+    "user":"root",
+    "password":"123456",
+    "raise_on_warnings": "True"
+    },
+    "tableName": "luz_temperatura",
+    "fields": [
+        { "name":"luz","type":"INT(10)" },
+        { "name":"temperatura","type":"INT(10)" }
+    ]
+}
